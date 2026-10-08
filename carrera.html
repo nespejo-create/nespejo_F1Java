@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<!-- Página con información del circuito, horarios, características y un formulario de contacto. -->
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Circuito</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="funciones/funciones.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Información de la Carrera</h1>
+</header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="carrera.html">Carrera</a></li>
+            <li><a href="pilotos.html">Pilotos</a></li>
+        </ul>
+    </nav>
+ <main>
+ <section>
+        <h2>El Circuito de la final</h2>
+        <img src="imagenes/circuito_f1.png" alt="Circuito de Fórmula 1">
+
+        <p>El circuito del  Premio cuenta con características técnicas que lo convierten en uno de los más exigentes.</p>
+
+        <h3>Características del circuito ABU DHABI</h3>
+        <ul>
+            <li>Longitud total: 5,554km</li>
+            <li>Curvas: 21 </li>
+            <li>Lugar: Abu Dhabi, Emiratos Árabes Unidos</li>
+			<li>Trazado: Circuito de Yas Marina </li>
+        </ul>
+
+        <h3>Horarios del evento</h3>
+        <ol>
+            <li>Entrenamientos libres: 10:00</li>
+            <li>Clasificación: 14:00</li>
+            <li>Carrera: 16:00</li>
+        </ol>
+		
+		<p>Más información del circuito en:
+            <a href="https://es.wikipedia.org/wiki/Circuito_Yas_Marina" 
+			target="_blank">Wikipedia del circuito</a>
+        </p>
+    </section>
+
+    <section>
+        <h2>Formulario de contacto</h2>
+
+        <form action="mailto:nespejo@birtlh.eus" method="post" enctype="text/plain" onsubmit="return validarFormulario()">
+            <label>Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+
+            <label>Email:</label>
+            <input type="email" name="email">
+
+            <label>Mensaje:</label>
+            <textarea name="mensaje"></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+  </main>
+     
+
+<footer>
+    <p> 2026 - Sitio Web F1 BirtLH</p>
+</footer>
+
+</body>
+</html>

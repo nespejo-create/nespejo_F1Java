@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #222;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+img {
+    width: 300px;   
+    height: auto;   
+    display: block;
+    margin: 10px auto;
+}
+.oscuro {
+    background-color: #0cc7c7;
+    color: #003333;
+    transition: all 0.3s ease;
+    
+
+

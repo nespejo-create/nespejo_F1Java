@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<!-- Página que muestra una tabla con los pilotos, su equipo y su imágenen,
+     además de una lista de equipos y enlace externos. -->
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pilotos</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="funciones/funciones.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Pilotos del Gran Premio</h1>
+</header>
+  
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="carrera.html">Circuito</a></li>
+            <li><a href="pilotos.html">Pilotos</a></li>
+        </ul>
+    </nav>
+
+<main>
+    <section>
+        <h2>Listado de pilotos</h2>
+
+        <table>
+            <tr>
+                <th>Piloto</th>
+                <th>Equipo</th>
+                <th>Imagen</th>
+                 <th>Acción</th>
+            </tr>
+
+            <tr>
+                <td>Max Verstappen</td>
+                <td>Red Bull</td>
+                <td><img src="imagenes/piloto1.png" alt="M. Verstappen"></td>
+                <td><button onclick="mostrarInfoPiloto('Max Verstappen')">Ver info</button></td>
+            </tr>
+ <tr>
+                <td>Andrea Antonelli</td>
+                <td>Mercedes</td>
+                <td><img src="imagenes/piloto2.png" alt="A. Antonelli"></td>
+                <td><button onclick="mostrarInfoPiloto('Andrea Antonelli')">Ver info</button></td>
+            </tr>
+        </table>
+
+        <h3>Equipos participantes</h3>
+        <ul>
+            <li>Red Bull</li>
+            <li>Mercedes</li>
+            <li>Ferrari</li>
+            <li>McLaren</li>
+        </ul>
+		
+		<p>Estadísticas oficiales en:
+            <a href="https://www.statsf1.com/es/statistiques/pilote.aspx" 
+			target="_blank">Pilotos del Mundo</a>
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p> 2026 - Sitio Web F1 BirtLH</p>
+</footer>
+</body>
+</html>
